@@ -75,7 +75,7 @@ python test_time_scaling_seq_mega_step.py --num_processes 12 \\
                                           --adaptive_verification \\
                                           --apply_verification \\
                                           --output result_dyve_adaptive_fuzzy_k8_aime2024.json \\
-                                          --verification_k 4 \\
+                                          --verification_k 8 \\
                                           --problems_path ./aime_2024.jsonl \\
                                           --majority_voting_n 4 
 ```

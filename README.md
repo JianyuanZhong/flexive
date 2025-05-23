@@ -70,7 +70,7 @@ Our implementation (`solve_detect_verify.py`) offers a complete inference-time f
 3. Integrates flexible verification to identify errors and guide corrections
 4. Balances computational resources between fast and slow thinking
 ```python
-python test_time_scaling_seq_mega_step.py --num_processes 12 \\
+python solve-detect-verify.py --num_processes 12 \\
                                           --apply_detection \\
                                           --adaptive_verification \\
                                           --apply_verification \\

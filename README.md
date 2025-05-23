@@ -23,7 +23,7 @@ effective solution to enhance LLM reasoning at test time.
 
 The repository contains two main components:
 
-1. **FlexiVe Training**: Code for training the flexible verification model using GRPO (Generative Reward Policy Optimization)
+1. **FlexiVe Training**: Code for training the flexible verification model using GRPO
 2. **Solve-Detect-Verify Pipeline**: Implementation of our efficient inference-time scaling framework
 
 ## Training the Verification Model

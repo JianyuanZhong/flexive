@@ -69,6 +69,16 @@ Our implementation (`solve_detect_verify.py`) offers a complete inference-time f
 2. Detects hesitation points and solution completion
 3. Integrates flexible verification to identify errors and guide corrections
 4. Balances computational resources between fast and slow thinking
+```python
+python test_time_scaling_seq_mega_step.py --num_processes 12 \\
+                                          --apply_detection \\
+                                          --adaptive_verification \\
+                                          --apply_verification \\
+                                          --output result_dyve_adaptive_fuzzy_k8_aime2024.json
+                                          --verification_k 4
+                                          --problems_path ./aime_2024.jsonl
+                                          --majority_voting_n 4
+```
 
 ### Key Features
 
